@@ -1,26 +1,25 @@
-<!doctype html>
-<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Karta Polaka Quiz</title><link rel="stylesheet" href="style.css"><script src="https://telegram.org/js/telegram-web-app.js"></script></head>
-<body><main class="app">
+<!doctype html><html lang="pl"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0f1117"><title>Karta Polaka Quiz</title>
+<link rel="stylesheet" href="style.css?v=2"><script src="https://telegram.org/js/telegram-web-app.js"></script></head><body>
+<main class="app">
 <section id="home">
- <div class="hero"><div class="brand">🇵🇱 Karta Polaka <span>Quiz</span></div><div class="sub">Kongres Polaków w Petersburgu • przygotowanie do rozmowy</div></div>
- <div class="wide" data-cat="Wszystkie"><div class="icon">🎓</div><div><div class="title">Szybki quiz</div><div class="meta">—</div></div></div>
- <div class="section">WYBIERZ TEMAT</div>
- <div class="grid">
-  <div class="card" data-cat="Historia"><div class="icon">🏛️</div><div class="title">Historia Polski</div><div class="meta">—</div></div>
-  <div class="card" data-cat="Tradycje"><div class="icon">🎄</div><div class="title">Kultura i tradycje</div><div class="meta">—</div></div>
-  <div class="card" data-cat="Symbole"><div class="icon">🦅</div><div class="title">Symbole Polski</div><div class="meta">—</div></div>
-  <div class="card" data-cat="Geografia"><div class="icon">🗺️</div><div class="title">Geografia</div><div class="meta">—</div></div>
-  <div class="card" data-cat="Znani Polacy"><div class="icon">👤</div><div class="title">Znani Polacy</div><div class="meta">—</div></div>
-  <div class="card" data-cat="Karta Polaka"><div class="icon">🇵🇱</div><div class="title">Karta Polaka</div><div class="meta">—</div></div>
- </div>
-</section>
-<section id="quiz" class="hidden">
- <div class="top"><button class="back" onclick="home()">←</button><span id="cat"></span><span id="qnum"></span></div>
- <div class="progress"><div id="bar" class="bar"></div></div><div id="question" class="question"></div><div id="answers" class="answers"></div>
- <div id="explain" class="explain hidden"></div><button id="next" class="next hidden" onclick="next()">Dalej →</button>
-</section>
-<section id="result" class="result hidden"><div>WYNIK</div><div id="score" class="score"></div><p id="percent"></p><button class="next" onclick="start(currentCategory)">Spróbuj ponownie</button><button class="back" style="margin-top:12px" onclick="home()">Strona główna</button></section>
-</main>
-<div class="footer"><b>⌂<br>Główna</b><span>🎓<br>Quiz</span><span>📊<br>Wyniki</span></div>
-</body></html>
+<div class="hero"><div class="brand">🇵🇱 Karta Polaka <span>Quiz</span></div>
+<div class="sub">Kongres Polaków w Petersburgu • przygotowanie do rozmowy</div>
+<div class="status"><span id="total">Ładowanie bazy…</span> · <span id="last">Brak zapisanych wyników</span></div>
+<div id="loadError" class="error hidden"></div></div>
+<div class="wide" data-cat="quick"><div class="icon">🎓</div><div><div class="title">Szybki quiz</div><div class="meta">—</div></div></div>
+<div class="section">WYBIERZ TEMAT</div>
+<div class="grid">
+<div class="card" data-cat="history"><div class="icon">🏛️</div><div class="title">Historia Polski</div><div class="meta">—</div></div>
+<div class="card" data-cat="traditions"><div class="icon">🎄</div><div class="title">Kultura i tradycje</div><div class="meta">—</div></div>
+<div class="card" data-cat="famous"><div class="icon">👤</div><div class="title">Znani Polacy</div><div class="meta">—</div></div>
+<div class="card" data-cat="geography"><div class="icon">🗺️</div><div class="title">Geografia</div><div class="meta">—</div></div>
+</div></section>
+<section id="quiz" class="hidden"><div class="top"><button class="back" onclick="home()">←</button><span id="cat"></span><span id="qnum"></span></div>
+<div class="progress"><div id="bar" class="bar"></div></div><div id="question" class="question"></div><div id="answers" class="answers"></div>
+<div id="feedback" class="feedback hidden"></div><button id="next" class="next hidden" onclick="next()">Dalej →</button></section>
+<section id="result" class="result hidden"><div>TWÓJ WYNIK</div><div id="score" class="score"></div><p id="percent"></p><p id="mistakeInfo"></p>
+<button id="retryMistakes" class="next hidden" onclick="start(null,true)">Powtórz błędne pytania</button><button class="secondary" onclick="home()">Strona główna</button></section>
+</main><div class="footer"><b>⌂<br>Główna</b><span>🎓<br>Quiz</span><span>📊<br>Wyniki</span></div>
+<script src="app.js?v=2"></script></body></html>

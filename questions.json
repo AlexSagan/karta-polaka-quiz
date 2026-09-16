@@ -1,158 +1,1902 @@
 [
   {
-    "id": 1,
-    "category": "Historia",
-    "q": "W którym roku odbył się chrzest Polski?",
+    "category": "history",
+    "question": "Kiedy odbył się chrzest Polski?",
     "answers": [
-      "966",
-      "1025",
-      "1410",
-      "1791"
+      "W 965 roku.",
+      "W 966 roku.",
+      "W 967 roku."
     ],
-    "correct": 0,
-    "explanation": "Chrzest Mieszka I przyjmuje się jako symboliczny początek chrześcijańskiej Polski."
+    "correct": 1
   },
   {
-    "id": 2,
-    "category": "Historia",
-    "q": "Kto był pierwszym królem Polski?",
+    "category": "history",
+    "question": "Który król panował w Polsce w latach 1386–1434?",
+    "answers": [
+      "Jadwiga",
+      "Władysław II Jagiełło.",
+      "Zygmunt"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Z jakim wydarzeniem związany jest rok 1569 w historii Polski?",
+    "answers": [
+      "Unia Krewska",
+      "Unia Lubelska",
+      "Unia Sowietska"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Jak nazywał się ustrój państwa Polski w XVI–XVIII wieku?",
+    "answers": [
+      "Rzeczpospolita Polska",
+      "Rzeczpospolita Obojga Narodów.",
+      "Rzeczpospolita Lubelska"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kto został pierwszym królem wybranym w wolnej elekcji w 1573 roku?",
+    "answers": [
+      "Henryk Walezy",
+      "Stefan Batory",
+      "Zygmunt III Waza"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Jakie wydarzenie miało miejsce 10 października 1410 roku?",
+    "answers": [
+      "Bitwa z Osmanami",
+      "Bitwa pod Koronowem",
+      "Bitwa o Berlin"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kim był Jan III Sobieski?",
+    "answers": [
+      "Książę",
+      "Król Polski",
+      "Papieżem"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Ile było rozbiorów Polski i kiedy się odbyły?",
+    "answers": [
+      "Dwa rozbiory:1793 i 1795",
+      "Trzy rozbiory: 1772, 1793 i 1795.",
+      "Nie było żadnego"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kiedy odzyskano niepodległość Polski po rozbiorach?",
+    "answers": [
+      "10 listopada 1918 roku.",
+      "11 listopada 1918 roku.",
+      "12 listopada 1918 roku."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kim był Józef Piłsudski?",
+    "answers": [
+      "Malarzem",
+      "Dowódcą wojskowym i politykiem",
+      "Filmowcem"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kiedy rozpoczęła się II wojna światowa i jak dotyczy Polski?",
+    "answers": [
+      "1 września 1938 roku – Niemcy zaatakowały Polskę.",
+      "1 września 1939 roku – Niemcy zaatakowały Polskę.",
+      "1 września 1940 roku – Niemcy zaatakowały Polskę."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Jaki układ między Niemcami a ZSRR przewidywał podział Europy Wschodniej?",
+    "answers": [
+      "Pakt Ribbentrop-Mołotow (pakt o nieagresji) z 1938 roku.",
+      "Pakt Ribbentrop-Mołotow (pakt o nieagresji) z 1939 roku.",
+      "Pakt Ribbentrop-Mołotow (pakt o nieagresji) z 1940 roku."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Czym było powstanie warszawskie?",
+    "answers": [
+      "Bunt przeciwko Szwedom",
+      "Zbrojne powstanie przeciw okupacji niemieckiej.",
+      "Zbrojna rebelia przeciwko Tatarom"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kiedy Polska została członkiem NATO?",
+    "answers": [
+      "1998.",
+      "1999.",
+      "2000."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kiedy Polska stała się członkiem Unii Europejskiej?",
+    "answers": [
+      "2003.",
+      "2004.",
+      "2005."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kiedy miało miejsce powstanie warszawskie?",
+    "answers": [
+      "1 sierpnia 1943.",
+      "1 sierpnia 1944.",
+      "1 sierpnia 1945."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Ile trwało powstanie warszawskie?",
+    "answers": [
+      "62 dni",
+      "63 dni.",
+      "61 dni"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Z jakim historycznym hasłem kojarzy się walka Polaków o wolność innych narodów?",
+    "answers": [
+      "Za wolność naszą i waszą",
+      "Bóg, Honor, Ojczyzna",
+      "Jeszcze Polska nie zginęła"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Jak nazywała się pierwsza stolica Królestwa Polskiego?",
+    "answers": [
+      "Zeljna Gora",
+      "Gniezno.",
+      "Kraków"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Czego dotyczyła Konfederacja Warszawska z 1573 roku?",
+    "answers": [
+      "Pokoju religijnego i tolerancji wyznaniowej",
+      "Handlu morskiego",
+      "Unii Polski ze Szwecją"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Kiedy podpisano Konfederację Warszawską?",
+    "answers": [
+      "1572.",
+      "1573.",
+      "1574."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kiedy przyjęto pierwszą konstytucję w Polsce?",
+    "answers": [
+      "3 maja 1790 roku.",
+      "3 maja 1791 roku.",
+      "3 maja 1792 roku."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kiedy było powstanie kościuszkowskie?",
+    "answers": [
+      "1793.",
+      "1794.",
+      "1795."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Jak nazywało się powstanie kościuszkowskie?",
+    "answers": [
+      "Bunt Tadeusza",
+      "Kościuszkowszczyzna.",
+      "Wściekłość ludu"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kiedy Ignacy Mościcki był prezydentem?",
+    "answers": [
+      "W latach 1925–1933.",
+      "W latach 1926–1939.",
+      "W latach 1927–1941."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Do którego miasta Zygmunt III Waza przeniósł dwór królewski pod koniec XVI wieku?",
+    "answers": [
+      "Warszawa",
+      "Kraków",
+      "Gniezno"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Jak nazywała się polska armia utworzona w czasie I wojny światowej?",
+    "answers": [
+      "Polska Armia Wyzwolenia",
+      "Legiony Polskie.",
+      "Obrońcy ojczyzny"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kiedy miał miejsce przewrót majowy?",
+    "answers": [
+      "1925.",
+      "1926.",
+      "1927."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kto dowodził przewrotem majowym w 1926 roku?",
+    "answers": [
+      "Kościuszko",
+      "Piłsudski.",
+      "Paderewski"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Jak nazywał się ruch oporu w okupowanej Polsce podczas II wojny światowej?",
+    "answers": [
+      "Radzieccy Polacy",
+      "Armia Krajowa.",
+      "Polskie Siły Wyzwoleńcze"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "W którym roku uchwalono Konstytucję Polskiej Rzeczypospolitej Ludowej, która wprowadziła nazwę PRL?",
+    "answers": [
+      "1952",
+      "1947",
+      "1956"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Jaka niezależna organizacja związkowa powstała w 1980 roku?",
+    "answers": [
+      "Duma",
+      "Solidarność.",
+      "Wzajemna pomoc"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kto był przywódcą Solidarności w 1980 roku?",
+    "answers": [
+      "Lech Wałęsa",
+      "Gabriel Narutowicz",
+      "Stanisław Wojciechowski"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Kto został pierwszym prezydentem RP wybranym w powszechnych wyborach po przemianach 1989 roku?",
+    "answers": [
+      "Lech Wałęsa",
+      "Wojciech Jaruzelski",
+      "Aleksander Kwaśniewski"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Kiedy Polska uwolniła się od reżimu komunistycznego?",
+    "answers": [
+      "1988.",
+      "1989.",
+      "1990."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Jak nazywał się ostatni król Polski?",
+    "answers": [
+      "Stanisław August Poniatowski",
+      "Władysław III Warneńczyk",
+      "Zygmunt III Waza"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "W jakich latach panował Stanisław August Poniatowski?",
+    "answers": [
+      "1764–1795",
+      "1763–1795",
+      "1765–1795"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Kto był ostatnim królem Polski?",
+    "answers": [
+      "Stanisław August Poniatowski",
+      "Zygmunt III Waza",
+      "Władysław III Warneńczyk"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Kto dowodził Cudem nad Wisłą?",
+    "answers": [
+      "Józef Wysocki",
+      "Józef Piłsudski.",
+      "Józef Konstanty Ramotowski;"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kiedy było Cud nad Wisłą?",
+    "answers": [
+      "15 sierpnia 1919 roku.",
+      "15 sierpnia 1920 roku.",
+      "15 sierpnia 1921 roku."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "history",
+    "question": "Kiedy wprowadzono stan wojenny w Polsce?",
+    "answers": [
+      "13 grudnia 1980.",
+      "13 grudnia 1981.",
+      "13 grudnia 1982."
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy jest Nowy Rok?",
+    "answers": [
+      "3 stycznia",
+      "1 stycznia",
+      "2 stycznia"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Jakie święto jest obchodzone 1 stycznia?",
+    "answers": [
+      "Nowy Rok",
+      "Trzech Króli",
+      "Dzień Niepodległości"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy jest Sylwester?",
+    "answers": [
+      "30 grudnia",
+      "31 grudnia",
+      "29 grudnia"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Jakie święto jest obchodzone 31 grudnia?",
+    "answers": [
+      "Sylwester",
+      "Boże Narodzenie",
+      "Wszystkich Świętych"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy jest Dzień Babci?",
+    "answers": [
+      "21 stycznia",
+      "pierwszym tygodniu listopada",
+      "16 listopada"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Co świętujemy 21 stycznia?",
+    "answers": [
+      "Dzień Babci",
+      "Dzień Dziadka",
+      "Dzień Matki"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Jakie święto jest obchodzone 8 marca?",
+    "answers": [
+      "Dzień Kobiet",
+      "Dzień Chłopaka",
+      "Dzień Matki"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy jest Dzień Kobiet?",
+    "answers": [
+      "7 marca",
+      "8 marca",
+      "9 marca"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Co świętujemy 1 maja?",
+    "answers": [
+      "Święto Pracy",
+      "Dzień Konstytucji",
+      "Boże Narodzenie"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy świętujemy Święto Pracy?",
+    "answers": [
+      "8 maja",
+      "1 maja",
+      "2 maja"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy jest Dzień Flagi Polski?",
+    "answers": [
+      "1 maja",
+      "2 maja",
+      "3 maja"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Co świętujemy 2 maja?",
+    "answers": [
+      "Dzień Flagi",
+      "Święto Pracy",
+      "Dzień Niepodległości"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Co to za uroczystość 3 maja?",
+    "answers": [
+      "Święto Konstytucji 3 Maja",
+      "Dzień Flagi",
+      "Święto Pracy"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy obchodzimy rocznicę uchwalenia Konstytucji?",
+    "answers": [
+      "2 maja",
+      "3 maja",
+      "4 maja"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy w Polsce obchodzony jest Dzień Matki?",
+    "answers": [
+      "26 maja",
+      "Pierwsza niedziela maja",
+      "27 maja"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy obchodzimy Dzień Dziecka?",
+    "answers": [
+      "1 czerwca",
+      "11 czerwca",
+      "2 czerwca"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Co obchodzimy 1 czerwca?",
+    "answers": [
+      "Dzień Dziecka",
+      "Dzień Matki",
+      "Dzień Nauczyciela"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy obchodzony jest Narodowy Dzień Pamięci Powstania Warszawskiego?",
+    "answers": [
+      "3 sierpnia",
+      "1 sierpnia",
+      "2 sierpnia"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "co katolicy w Polsce świętują 15 sierpnia?",
+    "answers": [
+      "Wniebowzięcie Najświętszej Maryi Panny",
+      "Boże Ciało",
+      "Wielkanoc"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy Święto Wniebowzięcia Najświętszej Maryi Panny?",
+    "answers": [
+      "14 sierpnia",
+      "15 sierpnia",
+      "16 sierpnia"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Jakie święto obchodzone jest w Polsce 15 sierpnia?",
+    "answers": [
+      "Święto Wojska Polskiego",
+      "Święto Pracy",
+      "Boże Ciało"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy Święto Wojska Polskiego?",
+    "answers": [
+      "14 sierpnia",
+      "15 sierpnia",
+      "16 sierpnia"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy jest Dzień Papieża Jana Pawła II?",
+    "answers": [
+      "15 października",
+      "16 października",
+      "17 października"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Co obchodzimy 16 października?",
+    "answers": [
+      "Dzień Papieża Jana Pawła II",
+      "Dzień Konstytucji 3 Maja",
+      "Wszystkich Świętych"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy jest Dzień Wszystkich Świętych?",
+    "answers": [
+      "13 listopada",
+      "1 listopada",
+      "2 listopada"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Co obchodzimy 1 listopada?",
+    "answers": [
+      "Wszystkich Świętych",
+      "Zaduszki",
+      "Wielkanoc"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Jakie wielkie święto obchodzone jest w Polsce 11 listopada?",
+    "answers": [
+      "Narodowe Święto Niepodległości",
+      "Święto Flagi",
+      "Święto Konstytucji 3 Maja"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy przypada Dzień Niepodległości?",
+    "answers": [
+      "10 listopada",
+      "11 listopada",
+      "12 listopada"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy obchodzimy Wigilia?",
+    "answers": [
+      "23 grudnia",
+      "24 grudnia",
+      "25 grudnia"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Co świętujemy 24 grudnia?",
+    "answers": [
+      "Wigilia Bożego Narodzenia",
+      "Wielkanoc",
+      "Zaduszki"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy obchodzimy Boże Narodzenie?",
+    "answers": [
+      "24 grudnia",
+      "25 grudnia",
+      "26 grudnia"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Co obchodzimy 25 grudnia?",
+    "answers": [
+      "Zaduszki",
+      "Boże Narodzenie",
+      "Wielkanoc"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy obchodzimy drugi dzień Bożego Narodzenia?",
+    "answers": [
+      "25 grudnia",
+      "26 grudnia",
+      "27 grudnia"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Co obchodzimy 26 grudnia?",
+    "answers": [
+      "Drugi dzień Bożego Narodzenia (Święto św. Szczepana)",
+      "Wigilia Bożego Narodzenia",
+      "Nowy Rok"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Co za Święto obchodzone 6 stycznia?",
+    "answers": [
+      "Trzech Króli (Objawienie Pańskie)",
+      "Boże Narodzenie",
+      "Nowy Rok"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy obchodzimy Święto Trzech Króli?",
+    "answers": [
+      "5 stycznia",
+      "6 stycznia",
+      "7 stycznia"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy tradycyjnie trwa karnawał?",
+    "answers": [
+      "Od święta Trzech Króli do Środy Popielcowej",
+      "Od Wielkanocy do Bożego Ciała",
+      "Przez cały Adwent"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Co to jest Zapusty?",
+    "answers": [
+      "Święto Flagi",
+      "Karnawał po staropolsku",
+      "Wielkanoc"
+    ],
+    "correct": 1
+  },
+  {
+    "category": "traditions",
+    "question": "Czym jest Tłusty Czwartek?",
+    "answers": [
+      "Czwartkiem przed Środą Popielcową, kojarzonym m.in. z jedzeniem pączków",
+      "Świętem Trzech Króli",
+      "Świętem państwowym"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Najważniejsze danie na Tłusty Czwartek?",
+    "answers": [
+      "Pączki",
+      "Pierogi",
+      "Barszcz czerwony"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Kiedy przypada Tłusty Czwartek?",
+    "answers": [
+      "W ostatni czwartek przed Wielkim Postem",
+      "W pierwszy czwartek Adwentu",
+      "W Środę Popielcową"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "traditions",
+    "question": "Z jakim dniem szczególnie kojarzy się w Polsce zwyczaj jedzenia pączków?",
+    "answers": [
+      "Z Tłustym Czwartkiem",
+      "Z Wigilią",
+      "Z Niedzielą Palmową"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto napisał epopeję narodową 'Pan Tadeusz'?",
+    "answers": [
+      "Adam Mickiewicz",
+      "Juliusz Słowacki",
+      "Cyprian Norwid"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto był autorem dramatu 'Balladyna'?",
+    "answers": [
+      "Juliusz Słowacki",
+      "Adam Mickiewicz",
+      "Henryk Sienkiewicz"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto napisał powieść 'Quo Vadis'?",
+    "answers": [
+      "Henryk Sienkiewicz",
+      "Bolesław Prus",
+      "Stanisław Wyspiański"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski pisarz otrzymał Nagrodę Nobla w 1924 roku?",
+    "answers": [
+      "Władysław Reymont",
+      "Czesław Miłosz",
+      "Wisława Szymborska"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto napisał powieść 'Lalka'?",
+    "answers": [
+      "Bolesław Prus",
+      "Stefan Żeromski",
+      "Juliusz Słowacki"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Która polska poetka otrzymała Nagrodę Nobla w 1996 roku?",
+    "answers": [
+      "Wisława Szymborska",
+      "Maria Konopnicka",
+      "Zofia Nałkowska"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto był autorem 'Trylogii'?",
+    "answers": [
+      "Henryk Sienkiewicz",
+      "Stefan Żeromski",
+      "Cyprian Kamil Norwid"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto jest autorem słów 'Litwo! Ojczyzno moja!'?",
+    "answers": [
+      "Adam Mickiewicz",
+      "Juliusz Słowacki",
+      "Ignacy Krasicki"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto napisał dramat 'Wesele'?",
+    "answers": [
+      "Stanisław Wyspiański",
+      "Juliusz Słowacki",
+      "Bolesław Leśmian"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski astronom ogłosił teorię heliocentryczną?",
+    "answers": [
+      "Mikołaj Kopernik",
+      "Jan Heweliusz",
+      "Stanisław Lem"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Która Polka była pierwszą kobietą uhonorowaną Nagrodą Nobla?",
+    "answers": [
+      "Maria Skłodowska-Curie",
+      "Wisława Szymborska",
+      "Irena Sendlerowa"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "W jakiej dziedzinie Maria Skłodowska-Curie zdobyła Nagrody Nobla?",
+    "answers": [
+      "Fizyka i chemia",
+      "Matematyka i astronomia",
+      "Literatura i medycyna"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski papież został świętym?",
+    "answers": [
+      "Jan Paweł II",
+      "Jan XXIII",
+      "Pius XII"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Jak nazywał się polski kompozytor znany z polonezów i mazurków?",
+    "answers": [
+      "Fryderyk Chopin",
+      "Karol Szymanowski",
+      "Ignacy Paderewski"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski pianista i kompozytor był premierem Polski?",
+    "answers": [
+      "Ignacy Jan Paderewski",
+      "Fryderyk Chopin",
+      "Karol Szymanowski"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski kompozytor tworzył opery narodowe?",
+    "answers": [
+      "Stanisław Moniuszko",
+      "Karol Szymanowski",
+      "Fryderyk Chopin"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto był twórcą 'Halki'?",
+    "answers": [
+      "Stanisław Moniuszko",
+      "Fryderyk Chopin",
+      "Henryk Wieniawski"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski pisarz otrzymał Nagrodę Nobla w 1980 roku?",
+    "answers": [
+      "Czesław Miłosz",
+      "Władysław Reymont",
+      "Adam Mickiewicz"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto był autorem 'Medalionów'?",
+    "answers": [
+      "Zofia Nałkowska",
+      "Maria Konopnicka",
+      "Stefan Żeromski"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto był autorem powieści 'Syzyfowe prace'?",
+    "answers": [
+      "Stefan Żeromski",
+      "Bolesław Prus",
+      "Henryk Sienkiewicz"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski matematyk był jednym z głównych twórców lwowskiej szkoły matematycznej?",
+    "answers": [
+      "Stefan Banach",
+      "Kazimierz Kuratowski",
+      "Wacław Sierpiński"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Którzy matematycy są szczególnie kojarzeni z początkiem lwowskiej szkoły matematycznej?",
+    "answers": [
+      "Stefan Banach i Hugo Steinhaus",
+      "Mikołaj Kopernik i Jan Heweliusz",
+      "Wacław Sierpiński i Ignacy Łukasiewicz"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski reżyser otrzymał Oscara za film 'Pianista'?",
+    "answers": [
+      "Roman Polański",
+      "Andrzej Wajda",
+      "Agnieszka Holland"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski reżyser otrzymał Oscara za całokształt twórczości?",
+    "answers": [
+      "Andrzej Wajda",
+      "Roman Polański",
+      "Krzysztof Kieślowski"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto był twórcą trylogii filmowej 'Trzy kolory'?",
+    "answers": [
+      "Krzysztof Kieślowski",
+      "Agnieszka Holland",
+      "Andrzej Wajda"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Jak nazywała się polska pisarka, laureatka Nobla w 2018 roku?",
+    "answers": [
+      "Olga Tokarczuk",
+      "Wisława Szymborska",
+      "Zofia Nałkowska"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto był przywódcą Solidarności i prezydentem Polski?",
+    "answers": [
+      "Lech Wałęsa",
+      "Bronisław Komorowski",
+      "Aleksander Kwaśniewski"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Kto był prezydentem Polski w latach 1995–2005?",
+    "answers": [
+      "Aleksander Kwaśniewski",
+      "Lech Wałęsa",
+      "Lech Kaczyński"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski sportowiec zdobył złoty medal olimpijski w skokach narciarskich?",
+    "answers": [
+      "Kamil Stoch",
+      "Adam Małysz",
+      "Robert Lewandowski"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski skoczek narciarski był znany jako 'Orzeł z Wisły'?",
+    "answers": [
+      "Adam Małysz",
+      "Kamil Stoch",
+      "Piotr Żyła"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski piłkarz grał w Bayernie Monachium i Barcelonie?",
+    "answers": [
+      "Robert Lewandowski",
+      "Jakub Błaszczykowski",
+      "Grzegorz Lato"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Która polska lekkoatletka zdobyła złoto w rzucie młotem?",
+    "answers": [
+      "Anita Włodarczyk",
+      "Irena Szewińska",
+      "Justyna Kowalczyk"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Która polska biegaczka narciarska zdobyła złoty medal olimpijski?",
+    "answers": [
+      "Justyna Kowalczyk",
+      "Irena Szewińska",
+      "Anita Włodarczyk"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Która polska lekkoatletka zdobyła 7 medali olimpijskich?",
+    "answers": [
+      "Irena Szewińska",
+      "Anita Włodarczyk",
+      "Justyna Kowalczyk"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Którzy polscy himalaiści dokonali pierwszego zimowego wejścia na Mount Everest?",
+    "answers": [
+      "Krzysztof Wielicki i Leszek Cichy",
+      "Jerzy Kukuczka i Andrzej Zawada",
+      "Wanda Rutkiewicz i Jerzy Kukuczka"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski himalaista zdobył wszystkie ośmiotysięczniki?",
+    "answers": [
+      "Jerzy Kukuczka",
+      "Krzysztof Wielicki",
+      "Andrzej Zawada"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Jak nazywał się polski wynalazca lampy naftowej?",
+    "answers": [
+      "Ignacy Łukasiewicz",
+      "Józef Piłsudski",
+      "Kazimierz Funk"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "famous",
+    "question": "Który polski biochemik wprowadził nazwę „witamina” i prowadził badania nad witaminą B1?",
+    "answers": [
+      "Kazimierz Funk",
+      "Ignacy Łukasiewicz",
+      "Tadeusz Reichstein"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Kto był pierwszym historycznym władcą Polski?",
     "answers": [
       "Mieszko I",
-      "Bolesław I Chrobry",
       "Kazimierz Wielki",
-      "Władysław Jagiełło"
+      "Bolesław Krzywousty"
     ],
-    "correct": 1,
-    "explanation": "Bolesław I Chrobry został koronowany na króla Polski w 1025 roku."
+    "correct": 0
   },
   {
-    "id": 3,
-    "category": "Historia",
-    "q": "W którym roku odbyła się bitwa pod Grunwaldem?",
+    "category": "history",
+    "question": "Kto został pierwszym królem Polski w 1025 roku?",
+    "answers": [
+      "Bolesław Chrobry",
+      "Mieszko II",
+      "Władysław Jagiełło"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "W którym roku odbył się chrzest Polski?",
     "answers": [
       "966",
+      "996",
+      "999"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Które miasto było pierwszą stolicą Polski?",
+    "answers": [
+      "Gniezno",
+      "Kraków",
+      "Warszawa"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Który król przeniósł stolicę Polski do Krakówa?",
+    "answers": [
+      "Kazimierz Odnowiciel",
+      "Mieszko I",
+      "Zygmunt III Waza"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "W którym roku odbyła się bitwa pod Grunwaldem?",
+    "answers": [
+      "1410",
+      "1386",
+      "1569"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Kto dowodził wojskami polskimi w bitwie pod Grunwaldem?",
+    "answers": [
+      "Władysław Jagiełło",
+      "Kazimierz Wielki",
+      "Zygmunt Stary"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Z jakiego kraju pochodził Władysław Jagiełło?",
+    "answers": [
+      "Litwa",
+      "Węgry",
+      "Czechy"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Unia polsko-litewska została zawarta w roku:",
+    "answers": [
       "1385",
       "1410",
       "1569"
     ],
-    "correct": 2,
-    "explanation": "Bitwa pod Grunwaldem odbyła się 15 lipca 1410 roku."
+    "correct": 0
   },
   {
-    "id": 4,
-    "category": "Symbole",
-    "q": "Jakie są barwy Rzeczypospolitej Polskiej?",
+    "category": "history",
+    "question": "Jak nazywał się słynny husarski hetman z XVII wieku?",
     "answers": [
-      "Biały i czerwony",
-      "Czerwony i niebieski",
-      "Biały i zielony",
-      "Złoty i czerwony"
+      "Jan Sobieski",
+      "Stanisław Żółkiewski",
+      "Tadeusz Kościuszko"
     ],
-    "correct": 0,
-    "explanation": "Barwami Rzeczypospolitej Polskiej są kolory biały i czerwony."
+    "correct": 0
   },
   {
-    "id": 5,
-    "category": "Symbole",
-    "q": "Jaki ptak znajduje się w godle Polski?",
+    "category": "history",
+    "question": "W którym roku miała miejsce bitwa pod Wiedniem?",
     "answers": [
-      "Sokół",
-      "Orzeł Biały",
-      "Bocian",
-      "Jastrząb"
+      "1683",
+      "1772",
+      "1791"
     ],
-    "correct": 1,
-    "explanation": "Godłem Rzeczypospolitej Polskiej jest wizerunek Orła Białego w koronie."
+    "correct": 0
   },
   {
-    "id": 6,
-    "category": "Geografia",
-    "q": "Jakie miasto jest stolicą Polski?",
+    "category": "history",
+    "question": "Kto dowodził Polakami w bitwie pod Wiedniem?",
+    "answers": [
+      "Jan III Sobieski",
+      "Kazimierz Wielki",
+      "Zygmunt August"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Który król Polski zasłynął hasłem: \"Oddał Polskę murowaną\"?",
+    "answers": [
+      "Kazimierz Wielki",
+      "Bolesław Chrobry",
+      "Mieszko II"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Pierwszy rozbiór Polski miał miejsce w roku:",
+    "answers": [
+      "1772",
+      "1793",
+      "1795"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Ile było rozbiorów Polski?",
+    "answers": [
+      "3",
+      "2",
+      "4"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Które państwa dokonały rozbiorów Polski?",
+    "answers": [
+      "Rosja, Prusy, Austria",
+      "Francja, Niemcy, Rosja",
+      "Szwecja, Turcja, Rosja"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "W którym roku uchwalono Konstytucję 3 maja?",
+    "answers": [
+      "1791",
+      "1772",
+      "1918"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Konstytucja 3 maja była pierwszą w Europie i drugą na świecie po:",
+    "answers": [
+      "Konstytucji amerykańskiej",
+      "Deklaracji francuskiej",
+      "Konstytucji angielskiej"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Kto był przywódcą insurekcji 1794 roku?",
+    "answers": [
+      "Tadeusz Kościuszko",
+      "Adam Mickiewicz",
+      "Józef Piłsudski"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Jak nazywała się słynna bitwa insurekcji kościuszkowskiej?",
+    "answers": [
+      "Racławice",
+      "Grunwald",
+      "Wiedeń"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "W którym roku Polska odzyskała niepodległość?",
+    "answers": [
+      "1918",
+      "1795",
+      "1945"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Kto został Naczelnikiem Państwa w 1918 roku?",
+    "answers": [
+      "Józef Piłsudski",
+      "Ignacy Paderewski",
+      "Roman Dmowski"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "W którym roku wybuchła II wojna światowa?",
+    "answers": [
+      "1939",
+      "1941",
+      "1945"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Które państwo napadło na Polskę 1 września 1939?",
+    "answers": [
+      "Niemcy",
+      "ZSRR",
+      "Austria"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Które państwo napadło na Polskę 17 września 1939?",
+    "answers": [
+      "ZSRR",
+      "Niemcy",
+      "Litwa"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Jak nazywało się Polskie Państwo Podziemne w czasie wojny?",
+    "answers": [
+      "Armia Krajowa",
+      "Armia Czerwona",
+      "Polska Ludowa"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "W którym roku wybuchło Powstanie Warszawskie?",
+    "answers": [
+      "1944",
+      "1945",
+      "1940"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Kto był pierwszym przywódcą komunistycznej Polski po 1945?",
+    "answers": [
+      "Bolesław Bierut",
+      "Józef Cyrankiewicz",
+      "Edward Gierek"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "W którym roku powstała Solidarność?",
+    "answers": [
+      "1980",
+      "1970",
+      "1990"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Kto był przywódcą Solidarności?",
+    "answers": [
+      "Lech Wałęsa",
+      "Tadeusz Mazowiecki",
+      "Aleksander Kwaśniewski"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Pierwszy niekomunistyczny premier Polski po 1945 roku to:",
+    "answers": [
+      "Tadeusz Mazowiecki",
+      "Lech Wałęsa",
+      "Donald Tusk"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "W którym roku Polska weszła do NATO?",
+    "answers": [
+      "1999",
+      "2004",
+      "2010"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "W którym roku Polska wstąpiła do Unii Europejskiej?",
+    "answers": [
+      "2004",
+      "2010",
+      "1995"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Stolicą Polski od 1596 roku jest:",
+    "answers": [
+      "Warszawa",
+      "Kraków",
+      "Gniezno"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Jak nazywał się słynny polski astronom z XVI wieku?",
+    "answers": [
+      "Mikołaj Kopernik",
+      "Jan Heweliusz",
+      "Stanisław Lem"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Kto był królem Polski i wielkim księciem litewskim w czasach unii lubelskiej?",
+    "answers": [
+      "Zygmunt II August",
+      "Stefan Batory",
+      "Władysław Jagiełło"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "W którym roku podpisano Unię Lubelską?",
+    "answers": [
+      "1569",
+      "1410",
+      "1385"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "history",
+    "question": "Jak nazywał się wielki poeta polski z epoki romantyzmu?",
+    "answers": [
+      "Adam Mickiewicz",
+      "Juliusz Słowacki",
+      "Cyprian Kamil Norwid"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Jaka jest stolica Polski?",
+    "answers": [
+      "Warszawa",
+      "Kraków",
+      "Wrocław"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Która rzeka przepływa przez Warszawę?",
+    "answers": [
+      "Wisła",
+      "Odra",
+      "Warta"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Jakie morze leży na północy Polski?",
+    "answers": [
+      "Morze Bałtyckie",
+      "Morze Północne",
+      "Morze Czarne"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Które miasto jest największym portem morskim w Polsce?",
+    "answers": [
+      "Gdańsk",
+      "Szczecin",
+      "Sopot"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Jaka jest największa wyspa leżąca w całości w Polsce?",
+    "answers": [
+      "Wolin",
+      "Uznam",
+      "Sobieszewska"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Która z poniższych rzek nie przepływa przez Polskę?",
+    "answers": [
+      "Dunaj",
+      "Wisła",
+      "Odra"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Jaka jest powierzchnia Polski w przybliżeniu?",
+    "answers": [
+      "około 314 tys. km²",
+      "około 250 tys. km²",
+      "około 400 tys. km²"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Które państwo graniczy z Polską na południu?",
+    "answers": [
+      "Czechy",
+      "Ukraina",
+      "Niemcy"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Które z poniższych miast nie leży w Polsce?",
+    "answers": [
+      "Lwów",
+      "Białystok",
+      "Gdynia"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Jaka jest najwyższa góra w Polsce?",
+    "answers": [
+      "Rysy",
+      "Kasprowy Wierch",
+      "Bukowina"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Które miasto jest największym miastem w Polsce?",
+    "answers": [
+      "Warszawa",
+      "Kraków",
+      "Wrocław"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Która rzeka jest najdłuższą w Polsce?",
+    "answers": [
+      "Wisła",
+      "Odra",
+      "Warta"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Która rzeka ma najdłuższy bieg na terytorium Polski?",
+    "answers": [
+      "Wisła",
+      "Odra",
+      "Warta"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Które miasto leży na wybrzeżu Bałtyku?",
+    "answers": [
+      "Gdańsk",
+      "Poznań",
+      "Lublin"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Jakie jest największe jezioro w Polsce pod względem powierzchni?",
+    "answers": [
+      "Śniardwy",
+      "Hańcza",
+      "Mamry"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Która z poniższych miejscowości leży w województwie małopolskim?",
     "answers": [
       "Kraków",
       "Gdańsk",
-      "Warszawa",
+      "Bydgoszcz"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Które miasto leży na rzece Odrze?",
+    "answers": [
+      "Kraków",
+      "Wrocław",
       "Poznań"
     ],
-    "correct": 2,
-    "explanation": "Stolicą Rzeczypospolitej Polskiej jest Warszawa."
+    "correct": 1
   },
   {
-    "id": 7,
-    "category": "Geografia",
-    "q": "Jakie morze leży na północy Polski?",
+    "category": "geography",
+    "question": "Jaka jest największa wyspa Morza Bałtyckiego?",
     "answers": [
-      "Morze Czarne",
-      "Morze Bałtyckie",
-      "Morze Północne",
-      "Morze Adriatyckie"
+      "Gotland",
+      "Wolin",
+      "Uznam"
     ],
-    "correct": 1,
-    "explanation": "Polska ma dostęp do Morza Bałtyckiego."
+    "correct": 0
   },
   {
-    "id": 8,
-    "category": "Tradycje",
-    "q": "Jak nazywa się tradycyjna wieczerza 24 grudnia?",
+    "category": "geography",
+    "question": "Które miasto leży w województwie zachodniopomorskim?",
     "answers": [
-      "Wigilia",
-      "Dożynki",
-      "Andrzejki",
-      "Śmigus-dyngus"
+      "Szczecin",
+      "Gdańsk",
+      "Toruń"
     ],
-    "correct": 0,
-    "explanation": "Wieczorem 24 grudnia w polskiej tradycji obchodzona jest Wigilia Bożego Narodzenia."
+    "correct": 0
   },
   {
-    "id": 9,
-    "category": "Tradycje",
-    "q": "Czym tradycyjnie dzielą się bliscy podczas Wigilii?",
+    "category": "geography",
+    "question": "Która rzeka przepływa przez Kraków?",
     "answers": [
-      "Chlebem",
-      "Opłatkiem",
-      "Solą",
-      "Jabłkiem"
+      "Wisła",
+      "Odra",
+      "Warta"
     ],
-    "correct": 1,
-    "explanation": "Przed wieczerzą wigilijną bliscy tradycyjnie dzielą się opłatkiem i składają życzenia."
+    "correct": 0
   },
   {
-    "id": 10,
-    "category": "Znani Polacy",
-    "q": "Kim był Fryderyk Chopin?",
+    "category": "geography",
+    "question": "Która z poniższych miejscowości leży na wschodzie Polski?",
     "answers": [
-      "Malarzem",
-      "Kompozytorem i pianistą",
-      "Astronomem",
-      "Pisarzem"
+      "Lublin",
+      "Gdańsk",
+      "Wrocław"
     ],
-    "correct": 1,
-    "explanation": "Fryderyk Chopin był polskim kompozytorem i pianistą."
+    "correct": 0
   },
   {
-    "id": 11,
-    "category": "Znani Polacy",
-    "q": "Z jaką dziedziną kojarzony jest Mikołaj Kopernik?",
+    "category": "geography",
+    "question": "Które miasto jest siedzibą Prezydenta Polski?",
     "answers": [
-      "Astronomią",
-      "Muzyką",
-      "Malarstwem",
-      "Prawem"
+      "Warszawa",
+      "Kraków",
+      "Wrocław"
     ],
-    "correct": 0,
-    "explanation": "Mikołaj Kopernik był astronomem, autorem heliocentrycznego modelu Układu Słonecznego."
+    "correct": 0
   },
   {
-    "id": 12,
-    "category": "Karta Polaka",
-    "q": "Co potwierdza Karta Polaka?",
+    "category": "geography",
+    "question": "Jaka jest największa dolina w Polsce?",
     "answers": [
-      "Obywatelstwo polskie",
-      "Przynależność do Narodu Polskiego",
-      "Prawo własności w Polsce",
-      "Automatyczne prawo stałego pobytu"
+      "Dolina Wisły",
+      "Dolina Odry",
+      "Dolina Warty"
     ],
-    "correct": 1,
-    "explanation": "Karta Polaka jest dokumentem potwierdzającym przynależność do Narodu Polskiego; nie jest dokumentem obywatelstwa."
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Która z poniższych miejscowości leży w województwie pomorskim?",
+    "answers": [
+      "Gdańsk",
+      "Wrocław",
+      "Poznań"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Jaka jest największa powierzchnia Polski?",
+    "answers": [
+      "312 696 km²",
+      "300 000 km²",
+      "350 000 km²"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Która z poniższych miejscowości leży w województwie mazowieckim?",
+    "answers": [
+      "Warszawa",
+      "Kraków",
+      "Wrocław"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Która rzeka przepływa przez Poznań?",
+    "answers": [
+      "Warta",
+      "Odra",
+      "Wisła"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Która z poniższych miejscowości leży w województwie śląskim?",
+    "answers": [
+      "Katowice",
+      "Gdańsk",
+      "Lublin"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Która rzeka przepływa przez Wrocław?",
+    "answers": [
+      "Odra",
+      "Warta",
+      "Wisła"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Która z poniższych miejscowości leży w województwie warmińsko-mazurskim?",
+    "answers": [
+      "Olsztyn",
+      "Gdańsk",
+      "Szczecin"
+    ],
+    "correct": 0
+  },
+  {
+    "category": "geography",
+    "question": "Która z poniższych miejscowości leży w województwie wielkopolskim?",
+    "answers": [
+      "Poznań",
+      "Gdańsk",
+      "Kraków"
+    ],
+    "correct": 0
   }
 ]

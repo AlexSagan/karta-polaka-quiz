@@ -1,11 +1,13 @@
-# Karta Polaka Quiz — Telegram Mini App
+# Karta Polaka Quiz — v2
 
-Pierwsza wersja Mini App dla Kongresu Polaków w Petersburgu.
+Telegram Mini App dla Kongresu Polaków w Petersburgu.
 
-Pliki:
-- `index.html`
-- `style.css`
-- `app.js`
-- `questions.json`
-
-Baza pytań jest celowo oddzielona od kodu, aby łatwo przenieść pełny bank pytań z wcześniejszego projektu.
+- baza po audycie: 190 pytań
+- poprawione błędne odpowiedzi i oczywiste błędy językowe
+- usunięte pytania wadliwe i dokładne duplikaty
+- losowanie pytań i odpowiedzi
+- szybki quiz: 20 pytań
+- tryb kategorii
+- zapamiętywanie ostatniego wyniku
+- powtórka błędnych pytań
+- obsługa motywu Telegram
