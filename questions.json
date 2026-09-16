@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "category": "Historia",
+    "q": "W którym roku odbył się chrzest Polski?",
+    "answers": [
+      "966",
+      "1025",
+      "1410",
+      "1791"
+    ],
+    "correct": 0,
+    "explanation": "Chrzest Mieszka I przyjmuje się jako symboliczny początek chrześcijańskiej Polski."
+  },
+  {
+    "id": 2,
+    "category": "Historia",
+    "q": "Kto był pierwszym królem Polski?",
+    "answers": [
+      "Mieszko I",
+      "Bolesław I Chrobry",
+      "Kazimierz Wielki",
+      "Władysław Jagiełło"
+    ],
+    "correct": 1,
+    "explanation": "Bolesław I Chrobry został koronowany na króla Polski w 1025 roku."
+  },
+  {
+    "id": 3,
+    "category": "Historia",
+    "q": "W którym roku odbyła się bitwa pod Grunwaldem?",
+    "answers": [
+      "966",
+      "1385",
+      "1410",
+      "1569"
+    ],
+    "correct": 2,
+    "explanation": "Bitwa pod Grunwaldem odbyła się 15 lipca 1410 roku."
+  },
+  {
+    "id": 4,
+    "category": "Symbole",
+    "q": "Jakie są barwy Rzeczypospolitej Polskiej?",
+    "answers": [
+      "Biały i czerwony",
+      "Czerwony i niebieski",
+      "Biały i zielony",
+      "Złoty i czerwony"
+    ],
+    "correct": 0,
+    "explanation": "Barwami Rzeczypospolitej Polskiej są kolory biały i czerwony."
+  },
+  {
+    "id": 5,
+    "category": "Symbole",
+    "q": "Jaki ptak znajduje się w godle Polski?",
+    "answers": [
+      "Sokół",
+      "Orzeł Biały",
+      "Bocian",
+      "Jastrząb"
+    ],
+    "correct": 1,
+    "explanation": "Godłem Rzeczypospolitej Polskiej jest wizerunek Orła Białego w koronie."
+  },
+  {
+    "id": 6,
+    "category": "Geografia",
+    "q": "Jakie miasto jest stolicą Polski?",
+    "answers": [
+      "Kraków",
+      "Gdańsk",
+      "Warszawa",
+      "Poznań"
+    ],
+    "correct": 2,
+    "explanation": "Stolicą Rzeczypospolitej Polskiej jest Warszawa."
+  },
+  {
+    "id": 7,
+    "category": "Geografia",
+    "q": "Jakie morze leży na północy Polski?",
+    "answers": [
+      "Morze Czarne",
+      "Morze Bałtyckie",
+      "Morze Północne",
+      "Morze Adriatyckie"
+    ],
+    "correct": 1,
+    "explanation": "Polska ma dostęp do Morza Bałtyckiego."
+  },
+  {
+    "id": 8,
+    "category": "Tradycje",
+    "q": "Jak nazywa się tradycyjna wieczerza 24 grudnia?",
+    "answers": [
+      "Wigilia",
+      "Dożynki",
+      "Andrzejki",
+      "Śmigus-dyngus"
+    ],
+    "correct": 0,
+    "explanation": "Wieczorem 24 grudnia w polskiej tradycji obchodzona jest Wigilia Bożego Narodzenia."
+  },
+  {
+    "id": 9,
+    "category": "Tradycje",
+    "q": "Czym tradycyjnie dzielą się bliscy podczas Wigilii?",
+    "answers": [
+      "Chlebem",
+      "Opłatkiem",
+      "Solą",
+      "Jabłkiem"
+    ],
+    "correct": 1,
+    "explanation": "Przed wieczerzą wigilijną bliscy tradycyjnie dzielą się opłatkiem i składają życzenia."
+  },
+  {
+    "id": 10,
+    "category": "Znani Polacy",
+    "q": "Kim był Fryderyk Chopin?",
+    "answers": [
+      "Malarzem",
+      "Kompozytorem i pianistą",
+      "Astronomem",
+      "Pisarzem"
+    ],
+    "correct": 1,
+    "explanation": "Fryderyk Chopin był polskim kompozytorem i pianistą."
+  },
+  {
+    "id": 11,
+    "category": "Znani Polacy",
+    "q": "Z jaką dziedziną kojarzony jest Mikołaj Kopernik?",
+    "answers": [
+      "Astronomią",
+      "Muzyką",
+      "Malarstwem",
+      "Prawem"
+    ],
+    "correct": 0,
+    "explanation": "Mikołaj Kopernik był astronomem, autorem heliocentrycznego modelu Układu Słonecznego."
+  },
+  {
+    "id": 12,
+    "category": "Karta Polaka",
+    "q": "Co potwierdza Karta Polaka?",
+    "answers": [
+      "Obywatelstwo polskie",
+      "Przynależność do Narodu Polskiego",
+      "Prawo własności w Polsce",
+      "Automatyczne prawo stałego pobytu"
+    ],
+    "correct": 1,
+    "explanation": "Karta Polaka jest dokumentem potwierdzającym przynależność do Narodu Polskiego; nie jest dokumentem obywatelstwa."
+  }
+]
