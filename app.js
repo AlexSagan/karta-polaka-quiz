@@ -2,7 +2,7 @@ const tg=window.Telegram?.WebApp;
 if(tg){tg.ready();tg.expand();document.documentElement.style.setProperty('--tg-bg',tg.themeParams.bg_color||'#0f1117');}
 const labels={history:'Historia Polski',traditions:'Kultura i tradycje',famous:'Znani Polacy',geography:'Geografia'};
 const QUIZ_SIZE=20,MAX_MISTAKES=3,TIME_LIMIT=20*60;
-let all=[],pool=[],idx=0,score=0,current='all',mistakes=[],answered=false,wrongCount=0,timeLeft=TIME_LIMIT,timerId=null,finished=false;
+let all=[],pool=[],idx=0,score=0,current='all',mistakes=[],answered=false,wrongCount=0,timeLeft=TIME_LIMIT,timerId=null,finished=false,pendingAction=null;
 const $=s=>document.querySelector(s);
 const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a};
 
@@ -84,7 +84,7 @@ function choose(opt,btn,q){
 function next(){if(finished)return;idx++;if(idx>=pool.length)finish(true);else show()}
 function lose(reason){
  if(finished)return;
- finished=true;stopTimer();
+ stopTimer();
  finish(false,reason==='time'?'CZAS MINĄŁ':'PRZEGRANA',
   reason==='time'?'Minęło 20 minut. Spróbuj ponownie.':'3 błędne odpowiedzi — koniec próby.');
 }
@@ -100,6 +100,44 @@ function finish(completed=true,title=null,message=null){
  showView('result');renderLast();
 }
 function showView(id){['home','quiz','result'].forEach(x=>$('#'+x).classList.toggle('hidden',x!==id));window.scrollTo(0,0)}
-function home(){stopTimer();finished=true;showView('home')}
+function isQuizActive(){
+ return !finished && !$('#quiz').classList.contains('hidden');
+}
+function requestLeave(action){
+ if(!isQuizActive()){performAction(action);return;}
+ pendingAction=action;
+ $('#leaveModal').classList.remove('hidden');
+}
+function closeLeaveModal(){
+ pendingAction=null;
+ $('#leaveModal').classList.add('hidden');
+}
+function confirmLeave(){
+ const action=pendingAction;
+ pendingAction=null;
+ $('#leaveModal').classList.add('hidden');
+ stopTimer();finished=true;
+ performAction(action);
+}
+function performAction(action){
+ if(action==='results'){showResults();return;}
+ stopTimer();finished=true;showView('home');
+}
+function home(){requestLeave('home')}
+function quizMenu(){requestLeave('quiz')}
+function resultsNav(){requestLeave('results')}
 document.addEventListener('click',e=>{const c=e.target.closest('[data-cat]');if(c)start(c.dataset.cat)});
 window.start=start;window.next=next;window.home=home;init();
+
+function showResults(){
+ const s=JSON.parse(localStorage.getItem('kp_stats')||'null');
+ if(!s){alert('Brak zapisanych wyników.');return;}
+ stopTimer(); finished=true;
+ $('#resultTitle').textContent='OSTATNI WYNIK';
+ $('#score').textContent=`${s.score}/${s.total}`;
+ $('#percent').textContent=`${Math.round(s.score/s.total*100)}% poprawnych odpowiedzi`;
+ $('#mistakeInfo').textContent=`Błędy: ${s.wrongCount||0}/${MAX_MISTAKES}`;
+ $('#retryMistakes').classList.add('hidden');
+ showView('result');
+}
+window.showResults=showResults;window.quizMenu=quizMenu;window.resultsNav=resultsNav;window.closeLeaveModal=closeLeaveModal;window.confirmLeave=confirmLeave;

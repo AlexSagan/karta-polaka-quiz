@@ -9,3 +9,26 @@ button{font:inherit}.app{max-width:620px;margin:auto;min-height:100vh;padding:18
 #lives{color:#ff879e}
 #timer{font-variant-numeric:tabular-nums;background:var(--card);border:1px solid var(--line);padding:7px 10px;border-radius:10px}
 #timer.danger{color:#ff4d6d;border-color:#dc143c}
+
+/* v4: stable contrast inside Telegram light/dark themes */
+#quiz,#result{color:#f7f7f8}
+#quiz .question{color:#f7f7f8!important;text-shadow:none}
+#quiz .top,#quiz #cat,#quiz #qnum{color:#cbd5e1!important}
+.quizhud{color:#f7f7f8!important}
+#lives{color:#ff6b86!important}
+#timer{display:inline-flex!important;visibility:visible!important;opacity:1!important;color:#f7f7f8!important;min-width:92px;justify-content:center}
+#timer.danger{color:#ff6b86!important}
+.footer button{appearance:none;border:0;background:transparent;color:#b9c3d4;font:inherit;cursor:pointer;padding:2px 18px;min-width:86px}
+.footer button:active{opacity:.65}
+.footer{z-index:100}
+
+/* v5: confirmation before abandoning an active attempt */
+.modal{position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.62);display:flex;align-items:center;justify-content:center;padding:20px}
+.modal.hidden{display:none!important}
+.modalBox{width:min(420px,100%);background:#181c27;color:#f7f7f8;border:1px solid #303647;border-radius:20px;padding:20px;box-shadow:0 20px 60px rgba(0,0,0,.45)}
+.modalTitle{font-size:21px;font-weight:850;margin-bottom:9px}
+.modalText{color:#cbd5e1;line-height:1.45;font-size:14px}
+.modalActions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}
+.modalActions button{border-radius:13px;padding:13px 10px;font-weight:800;cursor:pointer}
+.modalCancel{background:#222735;color:#f7f7f8;border:1px solid #3b4356}
+.modalLeave{background:#dc143c;color:white;border:1px solid #dc143c}

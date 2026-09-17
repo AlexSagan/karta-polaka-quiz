@@ -1,7 +1,7 @@
 <!doctype html><html lang="pl"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0f1117"><title>Karta Polaka Quiz</title>
-<link rel="stylesheet" href="style.css?v=3"><script src="https://telegram.org/js/telegram-web-app.js"></script></head><body>
+<link rel="stylesheet" href="style.css?v=5"><script src="https://telegram.org/js/telegram-web-app.js"></script></head><body>
 <main class="app"><section id="home">
 <div class="hero"><div class="brand">🇵🇱 Karta Polaka <span>Quiz</span></div>
 <div class="sub">Kongres Polaków w Petersburgu • przygotowanie do rozmowy</div>
@@ -20,5 +20,16 @@
 <div id="feedback" class="feedback hidden"></div><button id="next" class="next hidden" onclick="next()">Dalej →</button></section>
 <section id="result" class="result hidden"><div id="resultTitle">TWÓJ WYNIK</div><div id="score" class="score"></div><p id="percent"></p><p id="mistakeInfo"></p>
 <button id="retryMistakes" class="next hidden" onclick="start(null,true)">Powtórz błędne pytania</button><button class="secondary" onclick="home()">Strona główna</button></section>
-</main><div class="footer"><b>⌂<br>Główna</b><span>🎓<br>Quiz</span><span>📊<br>Wyniki</span></div>
-<script src="app.js?v=3"></script></body></html>
+</main><div class="footer"><button onclick="home()">⌂<br>Główna</button><button onclick="quizMenu()">🎓<br>Quiz</button><button onclick="resultsNav()">📊<br>Wyniki</button></div>
+
+<div id="leaveModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="leaveTitle">
+  <div class="modalBox">
+    <div id="leaveTitle" class="modalTitle">Przerwać quiz?</div>
+    <div class="modalText">Czy na pewno chcesz przerwać test? Twój aktualny postęp zostanie utracony.</div>
+    <div class="modalActions">
+      <button class="modalCancel" onclick="closeLeaveModal()">Anuluj</button>
+      <button class="modalLeave" onclick="confirmLeave()">Przerwij</button>
+    </div>
+  </div>
+</div>
+<script src="app.js?v=5"></script></body></html>
